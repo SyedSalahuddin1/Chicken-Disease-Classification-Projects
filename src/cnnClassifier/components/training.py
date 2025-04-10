@@ -9,7 +9,7 @@ class Training:
     
     def get_base_model(self):
         self.model = tf.keras.models.load_model(
-            self.config.updated_base_model_path
+            str(self.config.updated_base_model_path)
         )
     
     def train_valid_generator(self):
@@ -30,7 +30,7 @@ class Training:
         )
 
         self.valid_generator = valid_datagenerator.flow_from_directory(
-            directory=self.config.training_data,
+            directory=str(self.config.training_data),
             subset="validation",
             shuffle=False,
             **dataflow_kwargs
@@ -50,7 +50,7 @@ class Training:
             train_datagenerator = valid_datagenerator
 
         self.train_generator = train_datagenerator.flow_from_directory(
-            directory=self.config.training_data,
+            directory=str(self.config.training_data),
             subset="training",
             shuffle=True,
             **dataflow_kwargs
@@ -58,7 +58,7 @@ class Training:
 
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
-        model.save(path)
+        model.save(str(path))
 
 
     def train(self, callback_list: list):
