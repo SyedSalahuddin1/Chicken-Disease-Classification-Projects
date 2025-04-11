@@ -4,7 +4,6 @@ from cnnClassifier import logger
 
 
 
-
 STAGE_NAME = "Evaluation stage"
 
 
