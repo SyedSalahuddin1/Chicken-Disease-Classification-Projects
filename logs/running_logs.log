@@ -1,0 +1,133 @@
+[2025-05-06 11:59:16,549: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.39:8080]
+[2025-05-06 11:59:16,549: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-06 11:59:22,375: INFO: _internal: 127.0.0.1 - - [06/May/2025 11:59:22] "GET / HTTP/1.1" 200 -]
+[2025-05-06 11:59:35,460: INFO: _internal: 127.0.0.1 - - [06/May/2025 11:59:35] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 11:59:40,803: INFO: _internal: 127.0.0.1 - - [06/May/2025 11:59:40] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 11:59:51,985: INFO: _internal: 127.0.0.1 - - [06/May/2025 11:59:51] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:01:43,016: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:01:43] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:04:40,281: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002698B0F5EE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2025-05-06 12:04:40,296: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:04:40] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:18:30,382: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002698B175CA0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2025-05-06 12:18:30,382: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:18:30] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:19:02,415: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:19:02] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:20:33,462: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:20:33] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:20:41,651: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:20:41] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:21:03,912: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:21:03] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:23:15,593: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:23:15] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:25:33,893: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:25:33] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:25:37,124: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:25:37] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:29:33,022: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:29:33] "GET / HTTP/1.1" 200 -]
+[2025-05-06 12:29:52,561: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:29:52] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:30:06,136: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:30:06] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:32:30,383: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:32:30] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:32:56,075: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:32:56] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:36:29,883: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:36:29] "GET / HTTP/1.1" 200 -]
+[2025-05-06 12:38:43,763: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:38:43] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:39:01,059: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:39:01] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:39:09,226: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:39:09] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:45:44,955: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:45:44] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:46:24,270: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:46:24] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:57:57,375: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:57:57] "GET / HTTP/1.1" 200 -]
+[2025-05-06 12:58:08,566: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:58:08] "POST /predict HTTP/1.1" 200 -]
+[2025-05-06 12:58:28,956: INFO: _internal: 127.0.0.1 - - [06/May/2025 12:58:28] "POST /predict HTTP/1.1" 200 -]
+[2025-05-07 10:52:40,493: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.103.254:8080]
+[2025-05-07 10:52:40,493: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-07 10:52:48,528: INFO: _internal: 127.0.0.1 - - [07/May/2025 10:52:48] "GET / HTTP/1.1" 200 -]
+[2025-05-07 11:01:26,038: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.103.254:8080]
+[2025-05-07 11:01:26,038: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-07 11:01:37,145: INFO: _internal: 127.0.0.1 - - [07/May/2025 11:01:37] "GET / HTTP/1.1" 200 -]
+[2025-05-07 11:01:58,853: INFO: _internal: 127.0.0.1 - - [07/May/2025 11:01:58] "POST /predict HTTP/1.1" 200 -]
+[2025-05-07 11:02:11,969: INFO: _internal: 127.0.0.1 - - [07/May/2025 11:02:11] "POST /predict HTTP/1.1" 200 -]
+[2025-05-27 14:17:29,242: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.151.233:8080]
+[2025-05-27 14:17:29,242: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-27 14:17:41,873: INFO: _internal: 127.0.0.1 - - [27/May/2025 14:17:41] "GET / HTTP/1.1" 200 -]
+[2025-05-27 14:32:00,551: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-27 14:32:00,567: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-27 14:32:00,582: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-27 14:32:00,582: INFO: common: created directory at: artifacts]
+[2025-05-27 14:32:00,582: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-27 14:32:00,582: INFO: data_ingestion: File already exists of size: ~ 11361 KB]
+[2025-05-27 14:32:01,054: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-27 14:32:01,054: INFO: main: *******************]
+[2025-05-27 14:32:01,054: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-05-27 14:32:01,069: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-27 14:32:01,069: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-27 14:32:01,069: INFO: common: created directory at: artifacts]
+[2025-05-27 14:32:01,069: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-05-27 14:32:01,666: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-27 14:32:01,902: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-05-27 14:32:01,902: INFO: main: *******************]
+[2025-05-27 14:32:01,902: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-05-27 14:32:01,902: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-27 14:32:01,917: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-27 14:32:01,917: INFO: common: created directory at: artifacts]
+[2025-05-27 14:32:01,917: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2025-05-27 14:32:01,917: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2025-05-27 14:32:01,917: INFO: common: created directory at: artifacts\training]
+[2025-05-27 14:34:23,514: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-05-27 14:34:23,514: INFO: main: *******************]
+[2025-05-27 14:34:23,524: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-05-27 14:34:23,527: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-27 14:34:23,530: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-27 14:34:23,530: INFO: common: created directory at: artifacts]
+[2025-05-27 14:34:39,083: INFO: common: json file saved at: scores.json]
+[2025-05-27 14:34:39,083: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-05-29 07:06:07,956: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-29 07:06:07,968: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-29 07:06:07,968: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-29 07:06:07,984: INFO: common: created directory at: artifacts]
+[2025-05-29 07:06:07,984: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-29 07:06:07,984: INFO: data_ingestion: File already exists of size: ~ 11361 KB]
+[2025-05-29 07:06:08,468: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-29 07:06:08,468: INFO: main: *******************]
+[2025-05-29 07:06:08,468: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-05-29 07:06:08,468: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-29 07:06:08,468: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-29 07:06:08,468: INFO: common: created directory at: artifacts]
+[2025-05-29 07:06:08,468: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-05-29 07:06:09,111: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-29 07:06:09,409: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-05-29 07:06:09,409: INFO: main: *******************]
+[2025-05-29 07:06:09,409: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-05-29 07:06:09,409: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-29 07:06:09,409: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-29 07:06:09,424: INFO: common: created directory at: artifacts]
+[2025-05-29 07:06:09,424: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2025-05-29 07:06:09,424: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2025-05-29 07:06:09,424: INFO: common: created directory at: artifacts\training]
+[2025-05-29 07:08:57,934: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-05-29 07:08:57,934: INFO: main: *******************]
+[2025-05-29 07:08:57,934: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-05-29 07:08:57,934: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-29 07:08:57,950: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-29 07:08:57,950: INFO: common: created directory at: artifacts]
+[2025-05-29 07:09:13,951: INFO: common: json file saved at: scores.json]
+[2025-05-29 07:09:13,967: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
